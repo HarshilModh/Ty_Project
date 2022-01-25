@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "207932992644",
+    "firebase_url": "https://ty-project-4ec46-default-rtdb.firebaseio.com",
+    "project_id": "ty-project-4ec46",
+    "storage_bucket": "ty-project-4ec46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207932992644:android:13bad91226b5bf69f6a6d1",
+        "android_client_info": {
+          "package_name": "com.ty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207932992644-956s3osg5a2p0qrq4b6iqiocjitmuot6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFUhtxduohd_VAIhjr8Qr2g4VUBNTMWk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207932992644-956s3osg5a2p0qrq4b6iqiocjitmuot6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

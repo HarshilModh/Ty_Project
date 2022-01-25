@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+  <RelativeLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:context=".MainActivity"
+      android:background="#077F7B">
+
+    <ImageView
+        android:id="@+id/af"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/af"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="15dp"
+        />
+
+
+
+    <TextView
+        android:layout_below="@id/af"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:id="@+id/tv_toplog"
+        android:textColor="#92CCCCCC"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_toplog"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="40dp"
+        android:text="Sign Up"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btm"
+        android:layout_below="@id/tv_login"
+        android:background="@drawable/white_bg">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/tv_uname"
+          android:text="Email"
+          android:layout_marginHorizontal="30dp"
+          android:layout_marginTop="40dp"
+          android:textColor="#2B2B2B"
+          android:textSize="20sp"/>
+
+      <EditText
+          android:id="@+id/edt_udname"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/tv_uname"
+          android:layout_marginHorizontal="30dp"
+          android:layout_marginTop="20dp"
+          android:hint="Enter Username"
+          android:imeOptions="actionNext"
+          android:inputType="textEmailAddress"
+          android:padding="15dp"
+          android:singleLine="true" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/tv_pwd"
+          android:text="Password"
+          android:textSize="20sp"
+          android:layout_marginTop="20dp"
+          android:layout_marginHorizontal="30dp"
+          android:textColor="#2B2B2B"
+          android:layout_below="@id/edt_udname"
+          />
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/edt_pdwd"
+          android:layout_below="@id/tv_pwd"
+          android:padding="15dp"
+          android:layout_marginHorizontal="30dp"
+          android:layout_marginTop="20dp"
+          android:hint="Enter Password"
+          android:inputType="textPassword"
+          android:imeOptions="actionDone"
+          android:singleLine="true"
+
+
+
+
+
+          />
+
+      <android.widget.Button
+          android:id="@+id/btn_signUp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/edt_pdwd"
+          android:layout_centerHorizontal="true"
+          android:layout_marginHorizontal="30dp"
+          android:layout_marginTop="70dp"
+          android:background="@drawable/bt_bg"
+          android:padding="10dp"
+          android:text="sign Up"
+          android:textColor="#fff"
+          android:textStyle="normal" />
+
+    </RelativeLayout>
+  </RelativeLayout>
+</ScrollView>
