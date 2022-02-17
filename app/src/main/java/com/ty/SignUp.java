@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -41,7 +42,10 @@ public class SignUp extends AppCompatActivity {
                 databaseReference.child(userkey).setValue(contact);
                 edtuname.setText("");
                 edtpwd.setText("");
+
                 Intent i=new Intent(SignUp.this,MainActivity.class);
+                Toast.makeText(getApplicationContext(),"Sign Up Successfully",Toast.LENGTH_SHORT).show();
+
                 startActivity(i);
                 finish();
 

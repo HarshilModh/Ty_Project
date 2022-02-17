@@ -47,10 +47,16 @@ public class MainActivity extends AppCompatActivity {
 
                             if(userName.equals(contact.getUserName())&& password.equals(contact.getPassword())){
 
+                                Toast.makeText(getApplicationContext(),"Log in Successfully",Toast.LENGTH_SHORT).show();
                                 Intent i=new Intent(MainActivity.this,Home.class);
+
                                 startActivity(i);
                                 finish();
                             }
+//                            else{
+//                                Toast.makeText(getApplicationContext(),"Invalid Crendialts",Toast.LENGTH_SHORT).show();
+//
+//                            }
 
 
                         }
