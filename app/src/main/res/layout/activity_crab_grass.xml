@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrabGrass">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crab Grass"
+        android:textSize="20sp"
+        android:textColor="#ff000000"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detalis- Crabgrass (Digitaria sanguinalis) is an annual in the grass family (Poaceae).
+Leaves are flat, measuring 0.75-6 inches long and up to 0.5 inches wide, with a prominent mid-rib and pubescent on both sides.
+Crabgrass have membranous ligules that are truncated and have a jagged appearance.
+Crabgrass is an opportunistic annual weed that will grow in the thin and bare spots in your lawn.
+Crabgrass gets its name because it grows low to the ground with stems that radiate out from the center of the grass clump,
+resembling crab legs.
+Seeds begin to sprout in mid-spring, as soon as the soil temperature reaches 55 °F, and crabgrass can quickly become a problem
+during the summer because it is able to grow vigorously in hot, dry conditions.
+"
+        android:textSize="20sp"
+        android:textColor="#ff000000"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Killing Crabgrass Organically
+
+You don't really need chemicals for crabgrass control.
+While it's easy to kill crabgrass with herbicides, the best way to remove it and control it is by first pulling it,
+and then cultivating healthy new grass.
+"
+        android:textSize="20sp"
+        android:textColor="#ff000000"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Step 2-Pull Out the Crabgrass
+Using a pitchfork or weeding tool, remove young crabgrass when it's big enough to rip out, roots and all. If you're working with a large patch, this could take a while.
+
+
+"
+                android:textColor="#ff000000"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Step 3-Add Compost
+Add organic compost to the area in question. Work the soil so that it is thoroughly incorporated.
+
+
+"
+                android:textColor="#ff000000"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Step 4-Apply Grass Seed
+Seed the area with grass seed, and then place a layer of weed-free straw over the top to maintain moisture and protect the seeds from being eaten by birds.
+
+
+"
+                android:textColor="#ff000000"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Step 5-Keep the Soil Moist
+Water the area multiple times daily, depending on moisture conditions. Make sure the soil is consistently moist until the seeds sprout.
+
+
+"
+                android:textColor="#ff000000"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Step 6-Switch to Deep Watering
+When the grass is long enough to mow, start irrigating the lawn more deeply and less frequently. Crabgrass is a notoriously shallow-rooted weed; if you water too frequently and for a short duration, it will help it thrive.
+
+
+"
+                android:textColor="#ff000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Step 7-Mow the New Grass
+To maintain your new patch of grass, mow it high. This means leaving grass at a height of 2 1/2 to 3-inches tall. Doing so will allow the lawn grass to 'protect its own turf,' depriving crabgrass seeds of the light they need to germinate.
+
+
+            "
+                android:textColor="#ff000000"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Step 8-Weed as Needed
+Throughout the season, pull any remaining crabgrass plants that sprout up. By next year, your yard should be free of it.
+
+
+"
+                android:textColor="#ff000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

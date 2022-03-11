@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Weeds"
     android:orientation="vertical"
-   android:background="@drawable/weeds">
+   android:background="@drawable/weedcrop">
 
     <ListView
         android:id="@+id/weeds"

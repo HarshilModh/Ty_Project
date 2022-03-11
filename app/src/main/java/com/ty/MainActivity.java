@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnLogin;
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
+    TextView tvRegister;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +31,14 @@ public class MainActivity extends AppCompatActivity {
         edtUname=findViewById(R.id.edt_uname);
         edtPwd=findViewById(R.id.edt_pwd);
         btnLogin=findViewById(R.id.btn_login);
+        tvRegister=findViewById(R.id.btn_signUp);
+        tvRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,SignUp.class);
+                startActivity(intent);
+            }
+        });
         firebaseDatabase=FirebaseDatabase.getInstance("https://ty-project-4ec46-default-rtdb.firebaseio.com/");
         databaseReference=firebaseDatabase.getReference("users");
         btnLogin.setOnClickListener(new View.OnClickListener() {

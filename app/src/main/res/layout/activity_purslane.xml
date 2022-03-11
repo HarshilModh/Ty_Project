@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Purslane">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Purslane"
+                android:textSize="20sp"
+                android:textColor="#ff000000"
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Detalis-
+Purslane is a green, leafy vegetable that can be eaten raw or cooked.
+It is known scientifically as Portulaca oleracea, and is also called pigweed, little hogweed, fatweed and pusley.
+Purslane has smooth, reddish, mostly prostrate stems and the leaves, which may be alternate or opposite, are clustered at stem joints and ends.
+The yellow flowers have five regular parts and are up to 6 mm (0.24 in) wide.
+Depending upon rainfall, the flowers appear at any time during the year.
+The flowers open singly at the center of the leaf cluster for only a few hours on sunny mornings.
+The tiny seeds are formed in a pod, which opens when the seeds are mature.
+Purslane has a taproot with fibrous secondary roots and is able to tolerate poor soil and drought.
+The fruits are many-seeded capsules. Seed set is considerable; one plant can develop up to 193,000 seeds.
+[citation needed] The seeds germinate optimally at a temperature above 25 °C; they are light germinators,
+with even a soil cover of 5 mm having a negative effect on germinationThis succulent plant contains about 93% water.
+It has red stems and small, green leaves.
+
+"
+                android:textSize="20sp"
+                android:textColor="#ff000000"
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to get rid-
+.
+"
+                android:textSize="20sp"
+                android:textColor="#ff000000"
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Step 1-Hand-pull purslane while it is still young. The key is to remove the weed from the soil before it begins to seed.
+If you don’t, the plant will “throw” seeds into the surrounding areas.
+Use caution when picking mature plants that have already begun to seed.
+Overturning the soil can bring other seeds up to the surface and cause the purslane to spread even more. Be careful not to disrupt the soil too much.
+
+
+
+"
+                android:textColor="#ff000000"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Step 2-Remove plant fragments after weeding to prevent rerooting.
+Place the plant matter into a paper or plastic bag before throwing it away.
+Stems and leaves can reroot themselves quickly, so if you leave any pieces laying around, you can expect to see more weeds growing soon
+
+
+"
+                android:textColor="#ff000000"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Step 3-Allow your planted garden to dry out to kill any remaining seeds.
+Do not water the area, and avoid covering it with mulch or any other coverings until it is completely dry.
+
+
+"
+                android:textColor="#ff000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="349dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="
+Step 4-Cover an unplanted garden or ornamental area with plastic for 4-6 weeks.
+Do this during the hottest time of the year to prepare a bare area for planting.
+Ideally, you want the temperature underneath the plastic to reach 130 °F (54 °C).
+Use ground stakes or heavy rocks to hold clear or black plastic sheeting in place over the area.
+This process is called soil solarization and works to kill plants and seeds near the surface of the soil by heating them to extremely high temperatures,
+and works best if the soil is moist
+
+"
+                android:textColor="#ff000000"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

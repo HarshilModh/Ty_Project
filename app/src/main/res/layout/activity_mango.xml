@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mango">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="316dp"
+                android:src="@drawable/img_2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manngo"
+                android:textSize="20sp"
+                android:textColor="#ff000000"
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You may easily cultivate your own mango tree in a greenhouse. The first stage in growing a mango is to select an appropriate mango. According to the National Mango Board (www.mango.org), most mangoes farmed in America are either 'Tommy Atkins' or 'Palmer.' Tommy Atkins' skin is significantly more green and orange-red than Palmer's, which is more green and crimson. A golden Ataulfa mango, often known as golden, honey, or champagne mangoes, can also be grown. Because of its sweetness and flavour, I like the Ataulfa mango
+
+"
+                android:textSize="20sp"
+                android:textColor="#ff000000"
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="According to the Mango Board, there are seven types of mangos that are primarily grown in the summer in Florida and Mexico, and in the northern winter in Brazil and Chile. The fruit, which is related to cashew nuts, is thought to have originated in India and was carried to the Americas by Spanish explorers
+.
+"
+                android:textSize="20sp"
+                android:textColor="#ff000000"
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="You'll need to pick a perfectly ripe mango to start a tree. Most mangoes are plucked green and allowed to ripen in transportation, which is unfortunate. I've discovered that Ataulfa mangoes are frequently the ripest and easiest to produce mangoes. When buying a mango, give it a little squeeze. It should have a slight softness to it, but not be mushy.
+According to the Mango Board, seven different species of mangos are grown in the summer in Florida and Mexico, and in the northern winter in Brazil and Chile. The cashew-like fruit is supposed to have originated in India and was brought to the Americas by Spanish explorers
+
+
+
+"
+                android:textColor="#ff000000"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="The seed will begin to lift from the soil in approximately a week to ten days. This just signifies that the tap root has begun to grow. (To determine if the seed has roots, gently pull on it.) If the root has begun to grow, it will not come out of the dirt.) After a week or two, a small stalk will begin to emerge. Your mango will start to grow when this stalk sprouts leaves. Keep the mango in a warm spot where the temperature does not go below 60 degrees F so that it can continue to thrive. When the temperature dips below 60 degrees F, the mango loses all of its leaves, but if you keep it warm, it will recover.
+
+"
+                android:textColor="#ff000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="349dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="
+Continue to move your mango into larger pots as it matures. Because the plant has a long tap root, the best form of pot is one that is deep but not too large. Watch it grow by fertilising it once a month with a general-purpose fertiliser. Mango trees can grow to be 100 feet tall in tropical climates, but they are normally cut to a manageable height when planted for the fruit. Your potted mango may never reach that height, but it will produce a dense cluster of slightly leathery leaves as well as flowers and fruit after five or six years. If it blooms, you'll need to place it where insects can pollinate it in order to harvest fruit.
+"
+                android:textColor="#ff000000"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

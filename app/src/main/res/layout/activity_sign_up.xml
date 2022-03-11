@@ -20,10 +20,10 @@
         android:id="@+id/af"
         android:layout_width="64dp"
         android:layout_height="64dp"
-        android:src="@drawable/af"
         android:layout_marginLeft="45dp"
         android:layout_marginTop="15dp"
-        />
+        android:src="@drawable/hh"/>
+
 
 
 
@@ -124,6 +124,20 @@
           android:text="sign Up"
           android:textColor="#fff"
           android:textStyle="normal" />
+
+      <TextView
+          android:id="@+id/btn_login"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/btn_signUp"
+          android:layout_centerHorizontal="true"
+          android:layout_marginHorizontal="90dp"
+          android:layout_marginTop="70dp"
+          android:padding="10dp"
+          android:text="Allready have an account Log in"
+          android:textColor="#077F7B"
+          android:textStyle="normal" />
+
 
     </RelativeLayout>
   </RelativeLayout>

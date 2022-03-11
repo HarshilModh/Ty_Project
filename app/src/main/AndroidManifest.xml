@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.ty">
 
     <application
@@ -9,18 +10,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ty">
-
         <activity
-            android:name=".SignUp"
+            android:name=".Mango"
             android:exported="false" />
         <activity
-            android:name=".Seeds"
+            android:name=".Purslane"
+            android:exported="false" />
+        <activity
+            android:name=".CrabGrass"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".Home"
+            android:name=".SignUp"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
